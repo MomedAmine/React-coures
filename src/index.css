@@ -19,9 +19,9 @@ h2{
   border-radius: 15px;
   padding: 10px;
   margin: 10px;
-  max-width: 300px;
   min-width: 200px;
   box-sizing:border-box;/*sizing within the border*/
+  flex: 1;
 }
 .coloredDiv{
   text-align: center;
@@ -29,4 +29,13 @@ h2{
   border-radius: 15px;
   border-width: 3px;
   border-style: solid;
+}
+.box{
+    border: 3px dotted gray;
+    padding: 5%;
+}
+
+.box h1{
+  font-size: 1.5em;
+  flex: 1;
 }

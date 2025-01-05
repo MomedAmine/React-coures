@@ -6,6 +6,8 @@ import RC from './ReactCard'
 import OnChangeComp from './OnChangeComp'
 import ColorPicker from './ColorPicker'
 import ArrayUpdate from './ArrayUpdate'
+import UseEffectComp from './UseEffectComp'
+import ComponentA from './UseContext/ComponentA'
 import './App.css'
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
       <RC RCName = "On Change" Rcomp = {<OnChangeComp/>}/>
       <RC RCName = "Color Picker" Rcomp = {<ColorPicker/>}/>
       <RC RCName = "Array Update" Rcomp = {<ArrayUpdate/>}/>
+      <RC RCName = "Use Effect" Rcomp = {<UseEffectComp/>}/>
+      <RC RCName = "Use Context" Rcomp = {<ComponentA/>}/>
     </div>
     </>
   )
