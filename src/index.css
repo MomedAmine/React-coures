@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: left;
+  
+  min-width: 320px;
+  min-height: 100vh;
+}
+h2{
+  margin: 0 0 5px 0;
+}
+.RC{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border: 2px solid darkgray;
+  box-shadow:5px 5px 5px 1px #000000 ;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  max-width: 300px;
+  min-width: 200px;
+  box-sizing:border-box;/*sizing within the border*/
+}
+.coloredDiv{
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  border-width: 3px;
+  border-style: solid;
+}
