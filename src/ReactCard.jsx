@@ -6,7 +6,7 @@ function RC(props) {
   };
 return(
     <div className="RC">
-        <h2  onDoubleClick={toggleClass}>{props.RCName}</h2>
+        <h2  onClick={toggleClass}>{props.RCName}</h2>
         <hr/>
         <div className ={isActive ? 'hideDiv': null}>
             {props.Rcomp}
