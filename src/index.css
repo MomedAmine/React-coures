@@ -34,7 +34,9 @@ h2{
     border: 3px dotted gray;
     padding: 5%;
 }
-
+.hideDiv{
+  display: None;
+}
 .box h1{
   font-size: 1.5em;
   flex: 1;
