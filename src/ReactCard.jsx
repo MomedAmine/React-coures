@@ -5,7 +5,7 @@ function RC(props) {
     setActive(!isActive);
   };
 return(
-    <div className="RC">
+    <div className="RC" onDoubleClick={toggleClass}>
         <h2>{props.RCName}</h2>
         <hr/>
         <div className ={isActive ? 'hideDiv': null}>
